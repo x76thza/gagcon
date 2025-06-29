@@ -1,26 +1,54 @@
 getgenv().ConfigsKaitun = {
 	["Stack Plant"] = true,
-	["Low Cpu"] = true,	
+	["Low Cpu"] = true,
+	
 	["Limit Tree"] = {
-		["Limit"] = 250,
+		["Limit"] = 400,
 		["Destroy Untill"] = 350,
-		["Safe Tree"] = {"Nightshade","Beanstalk"}
+		
+		["Safe Tree"] = {
+			"Carrot"
+		}
 	},
 
 	Seed = {
 		Buy = {
 			Mode = "Auto", -- Custom , Auto
-			Custom = {}
+			Custom = {
+				"Carrot",
+				"Bamboo",
+				"Pumpkin",
+				"Daffodil",
+				"Orange Tulip",
+				"Watermelon",
+				"Mushroom",
+				"Nightshade",
+				"Beanstalk",
+			}
 		},
 		Place = {
 			Mode = "Select", -- Select , Lock
-			Select = {},
-			Lock = {"Sunflower","Elephant Ears","Dragon Pepper",}
+			Select = {
+				"Tomato",
+				"Bamboo",
+				"Pumpkin",
+				"Daffodil",
+				"Orange Tulip",
+				"Watermelon",
+				"Mushroom",
+				"Nightshade",
+				"Beanstalk",
+			},
+			Lock = {
+				
+			}
 		}
 	},
 	
 	["Seed Pack"] = {
-		Locked = { "Flower Seed Pack"}
+		Locked = {
+			
+		}
 	},
 	
 	Events = {
@@ -36,9 +64,9 @@ getgenv().ConfigsKaitun = {
 			--"Traveler's Fruit",
 			"Summer Seed Pack",
 			"Hamster",
-			"Oasis Egg",--"Delphinium",
+			"Oasis Egg",
+			--"Delphinium",
 			"Lily of the Valley",
-			"Bee Egg",--"Bee Crate",
 		}
 	},
 	
@@ -77,7 +105,7 @@ getgenv().ConfigsKaitun = {
 				"Blood Kiwi",
 				"Chicken"
 			},
-			["Limit Upgrade"] = 2,
+			["Limit Upgrade"] = 1,
 			["Equip When Done"] = {
 				"Blood Kiwi",
 				"Chicken"
@@ -102,9 +130,9 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Webhook = {
-		UrlPet = "d",
-		UrlSeed = "f",
-		PcName = "PRO1",
+		UrlPet = "Url Here",
+		UrlSeed = "Url Here",
+		PcName = "Threadripper pro 7995wx",
 		
 		Noti = {
 			Seeds = {
