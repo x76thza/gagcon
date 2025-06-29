@@ -2,7 +2,7 @@ getgenv().ConfigsKaitun = {
 	["Stack Plant"] = true,
 	["Low Cpu"] = true,	
 	["Limit Tree"] = {
-		["Limit"] = 400,
+		["Limit"] = 250,
 		["Destroy Untill"] = 350,
 		["Safe Tree"] = {"Carrot","Nightshade","Beanstalk"}
 	},
