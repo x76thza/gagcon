@@ -1,0 +1,136 @@
+getgenv().ConfigsKaitun = {
+	["Stack Plant"] = true,
+	["Low Cpu"] = true,	
+	["Limit Tree"] = {
+		["Limit"] = 400,
+		["Destroy Untill"] = 350,
+		["Safe Tree"] = {"Carrot","Nightshade","Beanstalk"}
+	},
+
+	Seed = {
+		Buy = {
+			Mode = "Auto", -- Custom , Auto
+			Custom = {}
+		},
+		Place = {
+			Mode = "Select", -- Select , Lock
+			Select = {},
+			Lock = {"Sunflower","Elephant Ears","Dragon Pepper",}
+		}
+	},
+	
+	["Seed Pack"] = {
+		Locked = { "Flower Seed Pack"}
+	},
+	
+	Events = {
+		["Summer Harvest"] = {
+			["Do At Money"] = 1000000,
+			["Point Limit"] = 14000,
+		},
+		Craft = {
+			"Crafters Seed Pack",
+			"Anti Bee Egg"
+		},
+		Shop = {
+			--"Traveler's Fruit",
+			"Summer Seed Pack",
+			"Hamster",
+			"Oasis Egg",
+			--"Delphinium",
+			"Lily of the Valley",
+		}
+	},
+	
+	Gear = {
+		Buy = { 
+			"Master Sprinkler",
+			"Godly Sprinkler",
+			"Advanced Sprinkler"
+		},
+		Lock = {
+
+		},
+	},
+
+	Eggs = {
+		Place = {
+			"Anti Bee Egg",
+			"Paradise Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
+			"Uncommon Egg"
+		},
+		Buy = {
+			"Paradise Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
+			"Uncommon Egg"
+		}
+	},
+	
+	Pets = {
+		["Upgrade Slot"] = {
+			["Pet"] = {
+				"Blood Kiwi",
+				"Chicken"
+			},
+			["Limit Upgrade"] = 1,
+			["Equip When Done"] = {
+				"Blood Kiwi",
+				"Chicken"
+			},
+		},
+		Locked = {
+			"Disco Bee",
+			"Butterfly",
+			"Mimic Octopus",
+			"Peacock",
+			"Scarlet Macaw",
+			"Moth",
+			"Brown Mouse",
+			"Queen Bee",
+			"Dragonfly",
+			"Raccoon",
+			"Red Fox",
+			"Blood Owl",
+			"Blood Kiwi",
+			["Chicken"] = 5,
+		}
+	},
+
+	Webhook = {
+		UrlPet = "https://discord.com/api/webhooks/1388664412143091722/rz81Msa2PZ1PiruEqFKEFka2Umc1Xw1NDuAhs6VVy2kwRMcKFEmyOPnIty8cJbNUtuot",
+		UrlSeed = "https://discord.com/api/webhooks/1388664618905505852/zQXhKTV6V-3XZPaPgVMx_qicYEJYUGCLjMr1F_we8FbVk4qo2h2hlhscGcRDCZeRAwef",
+		PcName = "PRO1",
+		
+		Noti = {
+			Seeds = {
+				"Sunflower",
+				"Dragon Pepper",
+				"Elephant Ears",
+			},
+			SeedPack = {
+				"Idk"
+			},
+			Pets = {
+				"Disco Bee",
+				"Butterfly",
+				"Mimic Octopus",
+				"Peacock",
+				"Scarlet Macaw",
+				"Moth",
+				"Brown Mouse",
+				"Queen Bee",
+				"Dragonfly",
+				"Raccoon",
+				"Red Fox",
+			},
+		}
+	},
+}
+License = "F5bUUJz9pIgEAX1pfWWr2mKSPWT8QPNX"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Real-Aya/Loader/main/Init.lua"))()
