@@ -3,8 +3,8 @@ getgenv().ConfigsKaitun = {
 	["Low Cpu"] = true,
 	
 	["Limit Tree"] = {
-		["Limit"] = 400,
-		["Destroy Untill"] = 350,
+		["Limit"] = 300,
+		["Destroy Untill"] = 250,
 		
 		["Safe Tree"] = {
 			"Moon Blossom","Candy Blossom"
@@ -29,7 +29,7 @@ getgenv().ConfigsKaitun = {
 		Place = {
 			Mode = "Lock", -- Select , Lock
 			Select = {
-				"Carrot"
+				"Tomato"
 			},
 			Lock = {
 				"Sunflower",
@@ -52,6 +52,7 @@ getgenv().ConfigsKaitun = {
 		},
 		Craft = {
 			"Crafters Seed Pack",
+			"Lightning Rod",
 			"Anti Bee Egg"
 		},
 		Shop = {
@@ -68,7 +69,8 @@ getgenv().ConfigsKaitun = {
 		Buy = { 
 			"Master Sprinkler",
 			"Godly Sprinkler",
-			"Advanced Sprinkler"
+			"Advanced Sprinkler",
+			"Lightning Rod"
 		},
 		Lock = {
 
@@ -109,15 +111,12 @@ getgenv().ConfigsKaitun = {
 			"Disco Bee",
 			"Butterfly",
 			"Mimic Octopus",
-			"Peacock",
-			"Scarlet Macaw",
-			"Moth",
-			"Brown Mouse",
+			"Hyacinth Macaw",
+			"Fennec Fox",
 			"Queen Bee",
 			"Dragonfly",
 			"Raccoon",
 			"Red Fox",
-			"Blood Owl",
 			"Blood Kiwi",
 			["Chicken"] = 5,
 		}
