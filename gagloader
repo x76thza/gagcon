@@ -7,7 +7,7 @@ getgenv().ConfigsKaitun = {
 		["Destroy Untill"] = 350,
 		
 		["Safe Tree"] = {
-			"Carrot"
+			"Moon Blossom","Candy Blossom"
 		}
 	},
 
@@ -27,20 +27,14 @@ getgenv().ConfigsKaitun = {
 			}
 		},
 		Place = {
-			Mode = "Select", -- Select , Lock
+			Mode = "Lock", -- Select , Lock
 			Select = {
-				"Tomato",
-				"Bamboo",
-				"Pumpkin",
-				"Daffodil",
-				"Orange Tulip",
-				"Watermelon",
-				"Mushroom",
-				"Nightshade",
-				"Beanstalk",
+				"Carrot"
 			},
 			Lock = {
-				
+				"Sunflower",
+				"Elephant Ears",
+				"Dragon Pepper",
 			}
 		}
 	},
@@ -105,7 +99,7 @@ getgenv().ConfigsKaitun = {
 				"Blood Kiwi",
 				"Chicken"
 			},
-			["Limit Upgrade"] = 1,
+			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
 				"Blood Kiwi",
 				"Chicken"
