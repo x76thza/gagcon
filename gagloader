@@ -36,9 +36,9 @@ getgenv().ConfigsKaitun = {
 			--"Traveler's Fruit",
 			"Summer Seed Pack",
 			"Hamster",
-			"Oasis Egg",
-			--"Delphinium",
+			"Oasis Egg",--"Delphinium",
 			"Lily of the Valley",
+			"Bee Egg",--"Bee Crate",
 		}
 	},
 	
@@ -77,7 +77,7 @@ getgenv().ConfigsKaitun = {
 				"Blood Kiwi",
 				"Chicken"
 			},
-			["Limit Upgrade"] = 1,
+			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
 				"Blood Kiwi",
 				"Chicken"
