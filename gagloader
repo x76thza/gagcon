@@ -20,7 +20,7 @@ getgenv().ConfigsKaitun = {
 	
 	["Limit Tree"] = {
 		["Limit"] = 300,
-		["Destroy Untill"] = 250,
+		["Destroy Untill"] = 200,
 		
 		["Safe Tree"] = {
 			"Moon Blossom","Candy Blossom"
@@ -39,7 +39,7 @@ getgenv().ConfigsKaitun = {
 				"Watermelon",
 				"Mushroom",
 				"Nightshade",
-				"Beanstalk"
+				"Beanstalk",
 			}
 		},
 		Place = {
@@ -53,7 +53,7 @@ getgenv().ConfigsKaitun = {
 				"Honeysuckle",
 				"Pink Lily"",
 				"Purple Dahlia"",
-				"Dragon Pepper"
+				"Dragon Pepper",
 			}
 		}
 	},
@@ -81,7 +81,7 @@ getgenv().ConfigsKaitun = {
 			"Hamster",
 			"Oasis Egg",
 			--"Delphinium",
-			"Lily of the Valley"
+			"Lily of the Valley",
 		}
 	},
 	
@@ -127,7 +127,8 @@ getgenv().ConfigsKaitun = {
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
 				"Blood Kiwi",
-				"Chicken"
+				"Rooster",
+				"Seal",
 			},
 		},
 		Locked = {
@@ -141,7 +142,7 @@ getgenv().ConfigsKaitun = {
 			"Raccoon",
 			"Red Fox",
 			"Blood Kiwi",
-			["Chicken"] = 5,
+			["Rooster"] = 5,
 		}
 	},
 
