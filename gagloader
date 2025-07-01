@@ -1,7 +1,7 @@
 
 getgenv().Hermanos_Settings = {
 
-    ['key'] = 'bb4aa05a-54db-45b7-b60c-eb8ac4622657',
+    ['key'] = _G.PCKEY,
     ['PC'] = _G.PCNAME,
 
 
