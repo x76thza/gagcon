@@ -143,7 +143,8 @@ getgenv().ConfigsKaitun = {
 			"Red Fox",
 			"Blood Kiwi",
 			["Rooster"] = 5,
-		}
+		},
+		LockPet_Weight = 10 -- if Weight >= 10 they will locked,
 	},
 
 	Webhook = {
@@ -155,7 +156,7 @@ getgenv().ConfigsKaitun = {
 			Seeds = {
 				"Sunflower",
 				"Dragon Pepper",
-				"Elephant Ears"
+				"Elephant Ears",
 			},
 			SeedPack = {
 				"Idk"
@@ -171,7 +172,7 @@ getgenv().ConfigsKaitun = {
 				"Queen Bee",
 				"Dragonfly",
 				"Raccoon",
-				"Red Fox"
+				"Red Fox",
 			},
 		}
 	},
