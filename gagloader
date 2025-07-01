@@ -17,7 +17,7 @@ task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com
 getgenv().ConfigsKaitun = {
 	["Stack Plant"] = true,
 	["Low Cpu"] = true,
-	
+	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
 		["Limit"] = 300,
 		["Destroy Untill"] = 200,
