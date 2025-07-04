@@ -65,6 +65,13 @@ getgenv().ConfigsKaitun = {
 	},
 	
 	Events = {
+		["Traveling Shop"] = {
+			"Liberty Lily",
+			"Firework Flower",
+			--"Firework",
+			"Bald Eagle",
+			--"July 4th Crate",
+		},
 		["Summer Harvest"] = {
 			["Do At Money"] = 1000000,
 			["Point Limit"] = 14000,
