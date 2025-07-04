@@ -142,6 +142,7 @@ getgenv().ConfigsKaitun = {
 			"Dragonfly",
 			"Raccoon",
 			"Red Fox",
+			"Hamster",
 			"Blood Kiwi",
 			["Rooster"] = 5,
 		},
