@@ -78,6 +78,7 @@ getgenv().ConfigsKaitun = {
 			["Point Limit"] = 14000,
 		},
 		Craft = {
+			"Ancient Seed Pack",
 			"Crafters Seed Pack",
 			"Honeysuckle",
 			"Lightning Rod",
@@ -107,6 +108,7 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
+			"Dinosaur Egg",
 			"Oasis Egg",
 			"Anti Bee Egg",
 			"Paradise Egg",
@@ -123,7 +125,8 @@ getgenv().ConfigsKaitun = {
 			"Night Egg",
 			"Bug Egg",
 			"Mythical Egg",
-			"Uncommon Egg"
+			"Uncommon Egg",
+			"Rare Summer Egg",
 		}
 	},
 	
