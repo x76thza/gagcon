@@ -54,6 +54,7 @@ getgenv().ConfigsKaitun = {
 				"Pink Lily",
 				"Purple Dahlia",
 				"Dragon Pepper",
+				"Bone Blossom"
 			}
 		}
 	},
@@ -108,7 +109,9 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
+			"Primal Egg",
 			"Dinosaur Egg",
+			"Bee Egg",
 			"Oasis Egg",
 			"Anti Bee Egg",
 			"Paradise Egg",
