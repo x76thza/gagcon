@@ -15,15 +15,26 @@ getgenv().Hermanos_Settings = {
 task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/gag-main.lua'))() end)
     
 getgenv().ConfigsKaitun = {
-	["Stack Plant"] = true,
+	["Block Pet Gift"] = true,
+	
 	["Low Cpu"] = true,
+	["Auto Rejoin"] = true,
+	
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 300,
-		["Destroy Untill"] = 200,
-		
+		["Limit"] = 200,
+		["Destroy Untill"] = 150,
+
 		["Safe Tree"] = {
-			"Moon Blossom","Candy Blossom"
+			"Maple Apple",
+			"Sunflower",
+			"Dragon Pepper",
+			"Elephant Ears",
+			"Moon Melon",
+			"Easter Egg",
+			"Moon Mango",
+			"Bone Blossom",
+			"Fossilight",
 		}
 	},
 
@@ -38,158 +49,214 @@ getgenv().ConfigsKaitun = {
 				"Orange Tulip",
 				"Watermelon",
 				"Mushroom",
+				"Avocado",
+				"Feijoa",
+				"Cauliflower",
+				"Loquat",
+				"Green Apple",
 				"Nightshade",
+				"Firefly Fern",
+				"Soft Sunshine",
+				"Zen Rocks",
+				"Hinomai",
 				"Beanstalk",
+				"Ember Lily",
+				"Sunflower",
+				"Sugar Apple",
+				"Burning Bud",
+				"Giant Pinecone",
+				"Spiked Mango",
 			}
 		},
 		Place = {
 			Mode = "Lock", -- Select , Lock
 			Select = {
-				"Tomato"
+				"Carrot"
 			},
 			Lock = {
+				"Maple Apple",
 				"Sunflower",
-				"Elephant Ears",
-				"Honeysuckle",
-				"Pink Lily",
-				"Purple Dahlia",
 				"Dragon Pepper",
-				"Bone Blossom"
+				"Elephant Ears",
+				"Moon Melon",
+				"Easter Egg",
+				"Moon Mango",
+				"Bone Blossom",
+				"Fossilight",
 			}
 		}
 	},
-	
+
 	["Seed Pack"] = {
 		Locked = {
-			
+
 		}
 	},
-	
+
 	Events = {
-		Dino = true,
-		["Traveling Shop"] = {
-			"Liberty Lily",
-			"Firework Flower",
-			--"Firework",
-			"Bald Eagle",
-			--"July 4th Crate",
+		["Zen Event"] = {
+			["Restocking"] = { -- Minimumthing to restock
+				Max_Restocks_Price = 3_000_000_000_000,
+				Minimum_Money = 1,
+				Minimum_Chi = 30
+			},
+			["Doing"] = {
+				Minimum_Money = 1, -- minimum money to start play this event
+				First_Upgrade_Tree = 1,
+				Maximum_Chi = 50,
+			}
 		},
-		["Summer Harvest"] = {
-			["Do At Money"] = 1000000,
-			["Point Limit"] = 14000,
+		["Traveling Shop"] = {
+			"Bee Egg",
 		},
 		Craft = {
+			"Primal Egg",
+			"Anti Bee Egg",
+			"Small Toy",
+			"Small Treat",
 			"Ancient Seed Pack",
-			"Crafters Seed Pack",
-			"Honeysuckle",
-			"Lightning Rod",
-			"Anti Bee Egg"
 		},
 		Shop = {
-			--"Traveler's Fruit",
-			"Summer Seed Pack",
-			"Hamster",
-			"Oasis Egg",
-			--"Delphinium",
-			"Lily of the Valley",
-		}
+			"Zen Egg",
+		},
 	},
-	
+
 	Gear = {
 		Buy = { 
+			"Watering Can",
+			"Trowel",
+			"Recall Wrench",
+			"Magnifying Glass",
+			"Tanning Mirror",
+			"Cleaning Spray",
+			"Favorite Tool",
+			"Harvest Tool",
+			"Friendship Pot",
+			"Master Sprinkler",
+			"Basic Sprinkler",
+			"Godly Sprinkler",
+			"Advanced Sprinkler",
+			"Medium Toy",
+			"Medium Treat",
+			"Levelup Lollipop",
+			"Lightning Rod",
+		},
+		Lock = {
 			"Master Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
-			"Lightning Rod"
-		},
-		Lock = {
-
+			"Basic Sprinkler",
+			"Lightning Rod",
 		},
 	},
 
 	Eggs = {
 		Place = {
-			"Primal Egg",
-			"Dinosaur Egg",
-			"Bee Egg",
-			"Oasis Egg",
-			"Anti Bee Egg",
-			"Paradise Egg",
-			"Night Egg",
-			"Bug Egg",
-			"Mythical Egg",
-			"Uncommon Egg",
-			"Rare Summer Egg"
+			"Zen Egg",
+			"Common Summer Egg",
 		},
 		Buy = {
 			"Anti Bee Egg",
-			"Paradise Egg",
 			"Bee Egg",
 			"Night Egg",
 			"Bug Egg",
+			"Paradise Egg",
 			"Mythical Egg",
-			"Uncommon Egg",
+			"Rare Egg",
 			"Rare Summer Egg",
+			"Common Summer Egg",
+			"Common Egg",
 		}
 	},
-	
+
 	Pets = {
+		["Start Delete Pet At"] = 50,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				"Blood Kiwi",
-				"Rooster"
+				["Starfish"] = { 8, 100, 1 },
 			},
-			["Limit Upgrade"] = 2,
+			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-				"Blood Kiwi",
-				"Rooster",
-				"Seal",
+				["Tanchozuru"] = { 5, 100, 1 },
+				["Ostrich"] = { 3, 100, 2 },
 			},
 		},
+		Locked_Pet_Age = 50, -- pet that age > 60 will lock
 		Locked = {
+			"Kitsune",
+			"Kappa",
+			"Tanchozuru",
+			"Tanuki",
 			"Disco Bee",
 			"Butterfly",
-			"Mimic Octopus",
-			"Hyacinth Macaw",
-			"Fennec Fox",
 			"Queen Bee",
 			"Dragonfly",
 			"Raccoon",
 			"Red Fox",
-			"Hamster",
-			"Blood Kiwi",
-			["Rooster"] = 5,
+			"Mimic Octopus",
+			"Hyacinth Macaw",
+			"Brontosaurus",
+			"Dilophosaurus",
+			"Ankylosaurus",
+			"Spinosaurus",
+			"T-Rex",
+			["Seagull"] = 5,
+			["Shiba Inu"] = 5,
+			["Nihonzaru"] = 5,
+			["Stegosaurus"] = 5,
+			["Peacock"] = 5,
+			["Triceratops"] = 5,
+			["Pterodactyl"] = 2,
+			["Toucan"] = 5,
+			["Capybara"] = 5,
+			["Bunny"] = 5,
+			["Golden Lab"] = 5,
+			["Bee"] = 3,
+			["Bunny"] = 5,
+			["Golden Lab"] = 5,
 		},
-		LockPet_Weight = 10 -- if Weight >= 10 they will locked,
+		LockPet_Weight = 5, -- if Weight >= 10 they will locked,
+		Instant_Sell = {		
+			"Shiba Inu",
+		}
 	},
 
 	Webhook = {
-		UrlPet = "Url Here",
-		UrlSeed = "Url Here",
-		PcName = "Threadripper pro 7995wx",
-		
+		UrlPet = "XXX",
+		UrlSeed = "XXX",
+		PcName = "LUCKY-AYAYA",
+
 		Noti = {
 			Seeds = {
 				"Sunflower",
 				"Dragon Pepper",
 				"Elephant Ears",
+				"Bone Blossom",
+				"Dragon Sapling",
+                "Maple Apple",
 			},
 			SeedPack = {
 				"Idk"
 			},
 			Pets = {
+				"Tanchozuru",
+				"Kitsune",
+				"Kappa",
+				"T-Rex",
+				"Brontosaurus",
 				"Disco Bee",
 				"Butterfly",
 				"Mimic Octopus",
-				"Peacock",
-				"Scarlet Macaw",
-				"Moth",
-				"Brown Mouse",
+				"Fennec Fox",
 				"Queen Bee",
 				"Dragonfly",
 				"Raccoon",
 				"Red Fox",
+				"Dilophosaurus",
+				"Ankylosaurus",
+				"Spinosaurus",
 			},
+			Pet_Weight_Noti = true,
 		}
 	},
 }
