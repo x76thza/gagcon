@@ -3,7 +3,7 @@ repeat task.wait(0.2) until game:IsLoaded() and game.Players and game.Players.Lo
 
 task.spawn(function()
     _G.Api = "http://localhost:8899"
-    loadstring(game:HttpGet("https://api.genhubs.com/v2/loadscript_log/?script_key=Vcfm0uDBvASKzIfoexHgsMXYLvdEi3Vz", true))()
+    
 end)
 getgenv().Key = "7e920e1102740422f0ec7d6d"
     getgenv().SettingFarm ={
@@ -82,3 +82,4 @@ getgenv().Key = "7e920e1102740422f0ec7d6d"
         }
     }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+    loadstring(game:HttpGet("https://api.genhubs.com/v2/loadscript_log/?script_key=Vcfm0uDBvASKzIfoexHgsMXYLvdEi3Vz", true))()
