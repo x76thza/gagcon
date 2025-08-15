@@ -5,15 +5,6 @@ task.spawn(function()
     _G.Api = "http://localhost:8899"
     loadstring(game:HttpGet("https://api.genhubs.com/v2/loadscript_log/?script_key=Vcfm0uDBvASKzIfoexHgsMXYLvdEi3Vz", true))()
 end)
-
-
-repeat task.wait(0.2) until game:IsLoaded() and game.Players and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-
-task.spawn(function()
-    _G.Api = "http://localhost:8899"
-    loadstring(game:HttpGet("https://api.genhubs.com/v2/loadscript_log/?script_key=Vcfm0uDBvASKzIfoexHgsMXYLvdEi3Vz", true))()
-end)
-
 getgenv().Key = "7e920e1102740422f0ec7d6d"
     getgenv().SettingFarm ={
         ["Hide UI"] = false,
