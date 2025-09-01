@@ -5,9 +5,9 @@ end)
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = "7e920e1102740422f0ec7d6d"
     getgenv().SettingFarm ={
-        ["Hide UI"] = false,
+        ["Hide UI"] = true,
         ["Reset Teleport"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["Delay Reset"] = 3,
             ["Item Dont Reset"] = {
                 ["Fruit"] = {
@@ -22,16 +22,16 @@ getgenv().Key = "7e920e1102740422f0ec7d6d"
         },
         ["White Screen"] = false,
         ["Lock Fps"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["FPS"] = 20,
         },
         ["Get Items"] = {
             ["Saber"] = true,
             ["Godhuman"] =  true,
-            ["Skull Guitar"] = true,
+            ["Skull Guitar"] = false,
             ["Mirror Fractal"] = true,
             ["Cursed Dual Katana"] = true,
-            ["Upgrade Race V2-V3"] = true,
+            ["Upgrade Race V2-V3"] = false,
             ["Auto Pull Lever"] = true,
             ["Shark Anchor"] = true, --- if have cdk,sg,godhuman
         },
@@ -43,7 +43,7 @@ getgenv().Key = "7e920e1102740422f0ec7d6d"
         },
         ["Farm Fragments"] = {
             ["Enabled"]  = false,
-            ["Fragment"] = 50000,
+            ["Fragment"] = 100000,
         },
         ["Auto Chat"] = {
             ["Enabled"] = false,
@@ -52,7 +52,7 @@ getgenv().Key = "7e920e1102740422f0ec7d6d"
         ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
         ["Select Hop"] = { -- 70% will have it
             ["Hop Server If Have Player Near"] = false, 
-            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = false, 
+            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
             ["Hop Find Dough King Get Mirror Fractal"] = false,
             ["Hop Find Raids Castle [CDK]"] = false,
             ["Hop Find Cake Queen [CDK]"] = false,
