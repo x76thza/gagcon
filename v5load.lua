@@ -28,18 +28,18 @@ getgenv().Key = "7e920e1102740422f0ec7d6d"
         ["Get Items"] = {
             ["Saber"] = true,
             ["Godhuman"] =  true,
-            ["Skull Guitar"] = false,
+            ["Skull Guitar"] = true,
             ["Mirror Fractal"] = true,
             ["Cursed Dual Katana"] = true,
             ["Upgrade Race V2-V3"] = false,
-            ["Auto Pull Lever"] = true,
+            ["Auto Pull Lever"] = false,
             ["Shark Anchor"] = true, --- if have cdk,sg,godhuman
         },
         ["Get Rare Items"] = {
-            ["Rengoku"] = true,
-            ["Dragon Trident"] = true, 
-            ["Pole (1st Form)"] = true,
-            ["Gravity Blade"]  = true,
+            ["Rengoku"] = false,
+            ["Dragon Trident"] = false, 
+            ["Pole (1st Form)"] = false,
+            ["Gravity Blade"]  = false,
         },
         ["Farm Fragments"] = {
             ["Enabled"]  = false,
@@ -74,7 +74,7 @@ getgenv().Key = "7e920e1102740422f0ec7d6d"
             ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
             ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas"},
         },
-        ["Lock Fruit"] = {},
+        ["Lock Fruit"] = {"Leopard-Leopard", "Kitsune-Kitsune", "Dragon-Dragon", "Yeti-Yeti", "Gas-Gas"},
         ["Webhook"] = {
             ["Enabled"] = false,
             ["WebhookUrl"] = "",
