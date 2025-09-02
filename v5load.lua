@@ -65,7 +65,7 @@ getgenv().Key = "7e920e1102740422f0ec7d6d"
             ["Sword"] = true,
         },
         ["Buy Haki"] = {
-            ["Enhancement"] = false,
+            ["Enhancement"] = true,
             ["Skyjump"] = true,
             ["Flash Step"] = true,
             ["Observation"] = true,
