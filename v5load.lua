@@ -3,7 +3,7 @@ task.spawn(function()
     loadstring(game:HttpGet("https://api.genhubs.com/v2/loadscript_log/?script_key=Vcfm0uDBvASKzIfoexHgsMXYLvdEi3Vz", true))()
 end)
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "7e920e1102740422f0ec7d6d"
+getgenv().Key = _G.PCKEY
     getgenv().SettingFarm ={
         ["Hide UI"] = true,
         ["Reset Teleport"] = {
