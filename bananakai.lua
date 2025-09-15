@@ -127,7 +127,7 @@ local function MaruKaitun()
         ["Enabled_Farm"] = false,
     }
     
-    getgenv().Key = "MARU-ZFYL3-77EZ6-CQ6K-TUF6M-SGELL"
+    getgenv().Key = "MARU-79Q8-PUYPQ-PUGG-C4KS7-S6WC"
     getgenv().id = "373060821346942986"
     getgenv().Script_Mode = "Kaitun_Script"
     
